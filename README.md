@@ -33,7 +33,7 @@
 4. Install the requirements
 
     ```
-    nstall -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 5. Create an environment variables. create a ***.env*** file. The File should have the following environment variables
