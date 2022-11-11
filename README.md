@@ -46,6 +46,11 @@
     DB_URL=sqlite:///./urlshortner.db
     ```
 
+    Your project structure should look as follows
+
+    
+    ![alt](projectStructure.png)
+
 6. To run the code
     ```
     uvicorn main:app --reload
