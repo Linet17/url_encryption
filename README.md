@@ -76,3 +76,5 @@
         "url": "http://localhost:8000/VEHT"
     }
     ```
+
+    Visit the url generated and it would redirect to the ***target_url***
