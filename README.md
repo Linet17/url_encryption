@@ -56,3 +56,23 @@
     ![alt text](shortner.png)
 
     To Create a url shortner, make a post request on ***/urls***
+
+8. Sample payload 
+
+    ```
+    {
+        "target_url": "http://www.techcamp.co.ke"
+    }
+    ```
+
+    Sample response
+
+    ```
+    {
+        "target_url": "http://www.techcamp.co.ke",
+        "is_active": true,
+        "clicks": 0,
+        "expire_datetime": "2022-11-11T16:17:22.093225",
+        "url": "http://localhost:8000/VEHT"
+    }
+    ```
